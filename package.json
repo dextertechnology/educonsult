@@ -1,0 +1,26 @@
+{
+  "name": "student_mgmt",
+  "version": "1.0.0",
+  "description": "An application to manage student in a consultancy",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/diwap/student_mgmt.git"
+  },
+  "keywords": [
+    "consultancy"
+  ],
+  "author": "diwap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/diwap/student_mgmt/issues"
+  },
+  "homepage": "https://gitlab.com/diwap/student_mgmt#readme",
+  "devDependencies": {
+    "electron": "^3.0.10"
+  }
+}
