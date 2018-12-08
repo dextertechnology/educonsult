@@ -22,5 +22,8 @@
   "homepage": "https://gitlab.com/diwap/student_mgmt#readme",
   "devDependencies": {
     "electron": "^3.0.10"
+  },
+  "dependencies": {
+    "hbs": "^4.0.1"
   }
 }

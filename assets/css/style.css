@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(iconfont/MaterialIcons-Regular.woff2) format('woff2'),
+      url(iconfont/MaterialIcons-Regular.woff) format('woff'),
+      url(iconfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+body {
+    display: flex;
+    height: 100%;
+    margin: 0;
+}
+#search-bar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#drawer {
+    width: 200px;
+    background-color: #002638;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+#drawer-company {
+    position: relative;
+    margin: auto;
+}
+#drawer-logo {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+#drawer-logo img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 50px;
+}
+#drawer-title {
+    font-size: 1rem;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+#drawer-setting {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+#search-bar i {
+    font-size: 2rem;
+    color: #002638;
+}
+#drawer-setting a i {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+#drawer-menu {
+    padding-top: 20px;
+}
+#drawer-menu a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: #001824;
+    margin-bottom: 5px;
+}
+#drawer-menu a.active {
+    background-color: #005075;
+}
+#drawer-menu a:hover {
+    background-color: #006da0;
+}
+#drawer-menu a:focus {
+    border-color: #006da0;
+}
+#drawer-menu a i {
+    padding-right: 10px;
+    vertical-align: middle;
+}
+#drawer-menu a span {
+    display: inline-block;
+    vertical-align: middle;
+}
+#main {
+    margin-left: 200px;
+    padding: 10px 10px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#add-student button {
+    padding: 10px 20px;
+    background-color: #002638;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+}
+#add-student button:hover {
+    background-color: #006da0;
+}
+#list-student {
+    margin-top: 20px;
+}

@@ -1,0 +1,20 @@
+{
+    "student": [
+        {
+            "name": "Diwakar Pandey",
+            "address": "Dhapasi"
+        },
+        {
+            "name": "Dipika Pandey",
+            "address": "Greenland"
+        },
+        {
+            "name": "Ramesh Acharya",
+            "address": "Balaju"
+        },
+        {
+            "name": "Jenish Acharya",
+            "address": "Koteshwor"
+        }
+    ]
+}
